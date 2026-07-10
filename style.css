@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* common button  */
+.common-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1d4ed8;
+}
+section{
+    padding: 80px 8%;
+}
+/* nav style  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+.main-logo img {
+  width: 100%;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.common-button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero-section-style */
+
