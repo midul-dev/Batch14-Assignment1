@@ -120,93 +120,131 @@ section .card-main-text {
 
 /* price card style  */
 
-.price-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.price-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-.price-content{
-    text-align: center;
-    padding-bottom: 50px;
-    /* display: grid;
+.price-content {
+  text-align: center;
+  padding-bottom: 50px;
+  /* display: grid;
     gap: 10px;
     justify-content: center;
     align-items: center;
     padding-bottom: 25px; */
 }
-.price-content .price-content-first-pera{
-    color: #575757;
+.price-content .price-content-first-pera {
+  color: #575757;
 }
-.price-content h2{
-    font-size: 3rem;
-    padding-bottom: 15px;
-}
-
-.price-card{
-    padding: 40px 30px;
-    border-radius: 10px;
-    display: grid;
-    gap: 20px;
-    border: 1px solid #e5e7eb;
-}
-.price-card-middle{
-background-color: #0D1B2A;
-
-/* color: white; */
-}
-.price-card-middle .card-middle-pera{
-    color: #93C5FD;
-}
-.price-card ul{
-    list-style-position: inside;
-}
-.price-card-middle .middle-card-list{
-    color: #FFFFFF;
-    opacity: 70%;
+.price-content h2 {
+  font-size: 3rem;
+  padding-bottom: 15px;
 }
 
-.button-white{
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid #2563EB;
-    background-color: white;
-    color: #2563EB;
+.price-card {
+  padding: 40px 30px;
+  border-radius: 10px;
+  display: grid;
+  gap: 20px;
+  border: 1px solid #e5e7eb;
 }
-.button-black{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
+.price-card-middle {
+  background-color: #0d1b2a;
+
+  /* color: white; */
 }
- .price-card span{
-    font-size: 3rem;
-    font-weight: 700;
-    margin: -20px 0;
-    
- }
- .price-card .middle-span{
-    color: white;
- }
- .price-card ul li{
-    padding: 5px 0;
- }
- .price-card ul li::marker{
-    color: #60A5FA;
- }
- .divider{
+.price-card-middle .card-middle-pera {
+  color: #93c5fd;
+}
+.price-card ul {
+  list-style-position: inside;
+}
+.price-card-middle .middle-card-list {
+  color: #ffffff;
+  opacity: 70%;
+}
+
+.button-white {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #2563eb;
+  background-color: white;
+  color: #2563eb;
+}
+.button-black {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.price-card span {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: -20px 0;
+}
+.price-card .middle-span {
+  color: white;
+}
+.price-card ul li {
+  padding: 5px 0;
+}
+.price-card ul li::marker {
+  color: #60a5fa;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e7eb;
+}
+.divider-middle {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  opacity: 10%;
+}
+.price-card .card-pera {
+  color: #888888;
+}
+.price-card .card-list {
+  color: #333333;
+}
+
+/* footer style  */
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 80px 8%;
+  justify-content: center;
+  gap: 230px;
+  /* align-items: center; */
+  /* height: 50vh; */
+  background-color: #07101F;
+}
+footer p {
+  width: 300px;
+  color: #b8c0cc;
+  margin-top: 10px;
+}
+
+.footer-container h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer-container ul {
+  list-style: none;
+  color: #b8c0cc;
+}
+.footer-container ul li a {
+  text-decoration: none;
+  color: #b8c0cc;
+}
+.footer-container ul li{
+    margin-bottom: 10px;
+}
+.footer-divider{
     width: 100%;
     height: 1px;
-    background-color: #E5E7EB;
- }
- .divider-middle{
-    width: 100%;
-    height: 1px;
-    background-color: #FFFFFF;
-    opacity: 10%;
- }
- .price-card .card-pera{
-    color: #888888;
- }
- .price-card .card-list{
-    color: #333333;
- }
+    background-color: #ffffff;
+}
