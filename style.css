@@ -44,7 +44,9 @@ nav {
 /* Hero-section-style */
 header {
   background-color: #1d4ed8;
-  background-image: url("./assets/banner.jpg");
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("./assets/banner.jpg");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,7 +59,6 @@ header {
   height: 100%;
   gap: 25px;
   color: white;
-  
 }
 
 .hero-contain h1 {
