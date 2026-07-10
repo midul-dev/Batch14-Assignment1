@@ -194,10 +194,14 @@ background-color: #0D1B2A;
     color: #60A5FA;
  }
  .divider{
-    border: 1px solid #E5E7EB;
+    width: 100%;
+    height: 1px;
+    background-color: #E5E7EB;
  }
  .divider-middle{
-    border: 1px solid #FFFFFF;
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
  }
  .price-card .card-pera{
     color: #888888;
