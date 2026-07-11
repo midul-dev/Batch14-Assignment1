@@ -11,6 +11,9 @@
   background-color: #1d4ed8;
   color: white;
 }
+.common-button:hover{
+  cursor: pointer;
+}
 /* common section padding  */
 section {
   padding: 80px 8%;
@@ -101,6 +104,9 @@ section .card-main-text {
   margin-top: 10px;
   overflow: hidden;
 }
+.card-designation{
+  color: #575757;
+}
 .card img {
   width: 100%;
 }
@@ -162,10 +168,16 @@ section .card-main-text {
   background-color: white;
   color: #2563eb;
 }
+.button-white:hover{
+  cursor: pointer;
+}
 .button-black {
   padding: 10px;
   border-radius: 10px;
   background-color: white;
+}
+.button-black:hover{
+  cursor: pointer;
 }
 .price-card span {
   font-size: 3rem;
