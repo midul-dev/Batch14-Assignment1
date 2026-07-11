@@ -1,3 +1,4 @@
+/* universal margine  */
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +47,7 @@ nav {
 }
 
 /* Hero-section-style */
+
 header {
   background-color: #1d4ed8;
   background-image:
@@ -81,6 +83,7 @@ header {
 }
 
 /* meet section style  */
+
 section .card-main-text {
   text-align: center;
   font-size: 2.5rem;
@@ -100,20 +103,13 @@ section .card-main-text {
 }
 .card img {
   width: 100%;
-  /* border-radius: 10px 10px 0 0; */
 }
 .card-content {
   padding: 20px;
   display: grid;
   gap: 10px;
 }
-/* .card p{
-    margin-top: 15px;
-    color: #575757;
-}
-.card h3{
-    margin-top: 15px;
-} */
+
 .card-pera {
   color: #2563eb;
 }
@@ -129,11 +125,6 @@ section .card-main-text {
 .price-content {
   text-align: center;
   padding-bottom: 50px;
-  /* display: grid;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 25px; */
 }
 .price-content .price-content-first-pera {
   color: #575757;
@@ -152,8 +143,6 @@ section .card-main-text {
 }
 .price-card-middle {
   background-color: #0d1b2a;
-
-  /* color: white; */
 }
 .price-card-middle .card-middle-pera {
   color: #93c5fd;
@@ -209,7 +198,9 @@ section .card-main-text {
 .price-card .card-list {
   color: #333333;
 }
+
 /* why-choose-style  */
+
 .why-choose-card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -217,10 +208,10 @@ section .card-main-text {
   align-items: center;
   gap: 30px;
 }
-section .why-attend-pera{
+section .why-attend-pera {
   color: #2563eb;
 }
-.why-choose-card{
+.why-choose-card {
   display: grid;
   gap: 20px;
   justify-content: center;
@@ -230,10 +221,10 @@ section .why-attend-pera{
   border-radius: 10px;
   padding: 60px 20px;
 }
-.why-choose-card i{
+.why-choose-card i {
   display: block;
   margin: auto;
-color: #2563eb;
+  color: #2563eb;
 }
 .why-choose-content {
   text-align: center;
@@ -241,18 +232,19 @@ color: #2563eb;
   display: grid;
   gap: 15px;
 }
-.why-choose-headline{
+.why-choose-headline {
   font-size: 2rem;
-  
 }
-.why-choose-pera{
+.why-choose-pera {
   color: #575757;
 }
-.why-choose-text{
+.why-choose-text {
   color: #575757;
 }
+
 /* footer style  */
-footer{
+
+footer {
   background-color: #07101f;
   padding: 80px 8%;
 }
@@ -262,9 +254,6 @@ footer{
   margin-bottom: 20px;
   justify-content: center;
   gap: 230px;
-  /* align-items: center; */
-  /* height: 50vh; */
-  
 }
 .footer-top p {
   width: 300px;
@@ -293,22 +282,22 @@ footer{
   height: 1px;
   background-color: #e5e7eb;
   opacity: 70%;
-  
   margin: auto;
-  
 }
 
-.fa-facebook, .fa-instagram, .fa-github{
+.fa-facebook,
+.fa-instagram,
+.fa-github {
   color: white;
 }
-.icon-section{
+.icon-section {
   display: flex;
- gap: 5px;
+  gap: 5px;
 }
-.icon-section p{
+.icon-section p {
   padding-right: 10px;
 }
-.footer-bottom{
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   color: white;
