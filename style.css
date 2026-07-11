@@ -217,29 +217,54 @@ section .card-main-text {
   align-items: center;
   gap: 30px;
 }
+section .why-attend-pera{
+  color: #2563eb;
+}
 .why-choose-card{
   display: grid;
   gap: 20px;
-  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #e5e7eb;
   border-radius: 10px;
-  padding: 20px;
+  padding: 60px 20px;
+}
+.why-choose-card i{
+  display: block;
+  margin: auto;
+color: #2563eb;
 }
 .why-choose-content {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   display: grid;
-  gap: 10px;
+  gap: 15px;
+}
+.why-choose-headline{
+  font-size: 2rem;
+  
+}
+.why-choose-pera{
+  color: #575757;
+}
+.why-choose-text{
+  color: #575757;
 }
 /* footer style  */
+footer{
+  background-color: #07101f;
+  padding: 80px 8%;
+}
 .footer-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 80px 8%;
+  margin-bottom: 20px;
   justify-content: center;
   gap: 230px;
   /* align-items: center; */
   /* height: 50vh; */
-  background-color: #07101f;
+  
 }
 .footer-top p {
   width: 300px;
@@ -266,5 +291,27 @@ section .card-main-text {
 .footer-divider {
   width: 100%;
   height: 1px;
-  background-color: #ffffff;
+  background-color: #e5e7eb;
+  opacity: 70%;
+  
+  margin: auto;
+  
+}
+
+.fa-facebook, .fa-instagram, .fa-github{
+  color: white;
+}
+.icon-section{
+  display: flex;
+ gap: 5px;
+}
+.icon-section p{
+  padding-right: 10px;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+  opacity: 60%;
 }
